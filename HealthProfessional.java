@@ -17,5 +17,12 @@ public class HealthProfessional {
         this.specialisation = specialisation;
     }
 
+    // Method to display details
+    public void displayDetails() {
+        System.out.printIn("ID: " + id);
+        System.out.printIn("Name: " + name);
+        System.out.printIn("Specialisation: " + specialisation);
+    }
+
 
 
