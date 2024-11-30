@@ -13,4 +13,11 @@ public class GeneralPractitioner extends HealthProfessional {
         super (id, name, specialisation);           // Call base class parameterised constructor
         this.clinicLocation = clinicLocation;
     }
+
+    // Overridden method to display details
+    @Override
+    public void displayDetails () {
+        super.displayDetails();         // Call base class display method
+        System.out.printIn ("Clinic Location: " + clinicLocation);
+    }
 }
