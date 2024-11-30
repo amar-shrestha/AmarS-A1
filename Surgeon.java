@@ -7,4 +7,10 @@ public class Surgeon extends HealthProfessional {
         super();            // Call base class default constructor
         this.operationTheater = "Not assigned";
     }
+    // Parameterised constructor
+    public Surgeon (int id, String name, String specialisation, String operatingTheater) {
+        super (id, name, specialisation);           // Call parent constructor
+        this.operationTheater = operatingTheater;
+    }
+    
 }
