@@ -12,5 +12,11 @@ public class Surgeon extends HealthProfessional {
         super (id, name, specialisation);           // Call parent constructor
         this.operationTheater = operatingTheater;
     }
-    
+
+    // Overridden method to display details
+    @Override
+    public void displayDetails() {
+        super.displayDetails();
+        System.out.printIn ("Operationg Theater: " + operationTheater);
+    }
 }
