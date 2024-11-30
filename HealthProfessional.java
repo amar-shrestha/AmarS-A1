@@ -23,6 +23,7 @@ public class HealthProfessional {
         System.out.printIn("Name: " + name);
         System.out.printIn("Specialisation: " + specialisation);
     }
+}
 
 
 
