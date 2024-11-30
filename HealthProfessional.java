@@ -9,4 +9,13 @@ public class HealthProfessional {
         this.name = "Unknown";
         this.specialisation = "General";
     }
-    
+
+    // Parameterised constructor
+    public HealthProfessional (int id, String name, String specialisation) {
+        this.id = id;
+        this.name = name;
+        this.specialisation = specialisation;
+    }
+
+
+
