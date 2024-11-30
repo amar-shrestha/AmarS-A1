@@ -7,4 +7,10 @@ public class GeneralPractitioner extends HealthProfessional {
         super();            // Calls base class default constructor
         this.clinicLocation = "Not specified";
     }
+
+    // Parameterised constructor
+    public GeneralPractitioner (int id, String name, String specialisation, String clinicLocation) {
+        super (id, name, specialisation);           // Call base class parameterised constructor
+        this.clinicLocation = clinicLocation;
+    }
 }
