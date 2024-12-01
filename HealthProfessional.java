@@ -19,9 +19,9 @@ public class HealthProfessional {
 
     // Method to display details
     public void displayDetails() {
-        System.out.printIn("ID: " + id);
-        System.out.printIn("Name: " + name);
-        System.out.printIn("Specialisation: " + specialisation);
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Specialisation: " + specialisation);
     }
 }
 
