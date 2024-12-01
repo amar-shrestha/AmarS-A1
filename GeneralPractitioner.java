@@ -18,6 +18,6 @@ public class GeneralPractitioner extends HealthProfessional {
     @Override
     public void displayDetails () {
         super.displayDetails();         // Call base class display method
-        System.out.printIn ("Clinic Location: " + clinicLocation);
+        System.out.println ("Clinic Location: " + clinicLocation);
     }
 }

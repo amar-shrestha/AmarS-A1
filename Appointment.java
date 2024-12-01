@@ -19,6 +19,11 @@ public class Appointment {
         this.timeSlot = timeSlot;
         this.doctor = doctor;
     }
+
+    // Getter for patientPhone as this is accessed outside class during appointment cancellation
+    public String getPatientPhone() {
+        return patientPhone;
+    }
     // Method to display details
     public void displayDetails () {
         System.out.println ("Patient Name: " + patientName);
