@@ -16,4 +16,9 @@ public class Assessmentone {
         // Print all appointments
         System.out.println ("Printing all appointments...");
         system.printExistingAppointmetns();
+
+        // Cancel appointment
+        System.out.println ("Cancelling appointment...");
+        system.cancelBooking("0422000002");         // Cancel Anuska appointment
+        
     }
