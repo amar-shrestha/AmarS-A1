@@ -19,5 +19,13 @@ public class Appointment {
         this.timeSlot = timeSlot;
         this.doctor = doctor;
     }
-    
+    // Method to display details
+    public void displayDetails () {
+        System.out.println ("Patient Name: " + patientName);
+        System.out.println ("Patient Phone: " + patientPhone);
+        System.out.println ("Time Slot: " + timeSlot);
+        if (doctor != null) {
+            doctor.displayDetails();
+        }
+    }
 }
