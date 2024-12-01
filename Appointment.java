@@ -3,4 +3,12 @@ public class Appointment {
     private String patientPhone;        // Patient's phone
     private String timeSlot;            // Preferred time
     private HealthProfessional doctor;  // Selected health professional 
+
+    // Default constructor
+    public Appointment() {
+        this.patientName = "Unknown";
+        this.patientPhone = "0000000000";
+        this.timeSlot = "00:00";
+        this.doctor = null;
+    }
 }
