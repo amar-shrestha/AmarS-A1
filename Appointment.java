@@ -11,4 +11,13 @@ public class Appointment {
         this.timeSlot = "00:00";
         this.doctor = null;
     }
+
+    // Parameteriseed constructor
+    public Appointment (String patientName, String patientPhone, String timeSlot, HealthProfessional doctor) {
+        this.patientName = patientName;
+        this.patientPhone = patientPhone;
+        this.timeSlot = timeSlot;
+        this.doctor = doctor;
+    }
+    
 }
