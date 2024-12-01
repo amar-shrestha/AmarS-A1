@@ -25,5 +25,22 @@ public class AppointmentSystem {
             }
         }
     }
+
+    // Method to cancel appointment
+    public void cancelBooking (String phone) {
+        Appointment toRemove = null;
+        for (Appointment appt : appointments) {
+            if (appt.patientPhone.equals (phone)) {
+                toRemove = appt;
+                break;
+            }
+        }
+        if (toRemove != null) {
+            appointments.remove (toRemove);
+            System.out.println ("Appointment cancelled successfully.");
+        } else {
+            System.out.println ("No appointment found for the given phone Number.");
+        }
+    }
 }
 
