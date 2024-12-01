@@ -13,5 +13,17 @@ public class AppointmentSystem {
             System.out.println ("Invalid appointment details.");
         }
     }
+
+    // method to print all appointments
+    public void printExistingAppointmetns() {
+        if (appointments.isEmpty()) {
+            System.out.println ("No appointments found.");
+        } else {
+            for (Appointment appt : appointments) {
+                appt.displayDetails();
+                System.out.println ("---------------------------");
+            }
+        }
+    }
 }
 
