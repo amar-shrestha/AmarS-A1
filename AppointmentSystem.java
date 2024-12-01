@@ -30,7 +30,7 @@ public class AppointmentSystem {
     public void cancelBooking (String phone) {
         Appointment toRemove = null;
         for (Appointment appt : appointments) {
-            if (appt.patientPhone.equals (phone)) {
+            if (appt.getPatientPhone().equals (phone)) {
                 toRemove = appt;
                 break;
             }
