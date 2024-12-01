@@ -17,6 +17,6 @@ public class Surgeon extends HealthProfessional {
     @Override
     public void displayDetails() {
         super.displayDetails();
-        System.out.printIn ("Operationg Theater: " + operationTheater);
+        System.out.println ("Operationg Theater: " + operationTheater);
     }
 }
